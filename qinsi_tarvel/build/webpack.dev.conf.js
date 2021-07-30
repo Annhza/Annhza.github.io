@@ -10,6 +10,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
 
+const express = require('express');
+const app = express();
+const travelData = require('../static/mock/data/travel.json');
+const traveldata = travelData.data;
+const cityData = require('../static/mock/data/city.json');
+const citydata = cityData.data;
+
+const apiRoutes = express.Router(); //配置路由
+app.use('/api',apiRoutes);
+
+
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
@@ -22,6 +33,22 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 
   // these devServer options should be customized in /config/index.js
   devServer: {
+    before(app) {
+      app.get('/api/travel', (req, res) => {
+        res.json({
+          errCode: 0,
+          data: traveldata
+          // data: travelData
+        })
+      });
+      app.get('/api/getcity', (req, res) => {
+        res.json({
+          errCode: 0,
+          data: citydata
+        })
+      })
+    },
+
     clientLogLevel: 'warning',
     historyApiFallback: {
       rewrites: [

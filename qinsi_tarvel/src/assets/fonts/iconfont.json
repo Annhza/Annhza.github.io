@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "6537181",
+      "name": "定位",
+      "font_class": "dingwei2",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "9642902",
+      "name": "定位",
+      "font_class": "dingwei1",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "10468847",
+      "name": "位置 定位",
+      "font_class": "icon-test1",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "8288834",
+      "name": "定位",
+      "font_class": "dingwei11",
+      "unicode": "e847",
+      "unicode_decimal": 59463
+    },
+    {
+      "icon_id": "18393313",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
       "icon_id": "551962",
       "name": "箭头",
       "font_class": "arrow-right",
