@@ -1,0 +1,46 @@
+.crumbs-nav a.more{
+  color: #01a1ff;
+  text-transform: uppercase;
+}
+.crumbs-nav a.more span{
+  font-size: 21px;
+}
+.pro-details{
+  margin: 60px 20px 0;
+  overflow: hidden;
+}
+.pro-details img{
+  padding: 52px 0 40px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.pro-description{
+  width: 460px;
+  float: right;
+}
+.pro-description h2{
+  font-size: 26px;
+  color: #333333;
+  padding: 26px 0 12px;
+}
+.pro-description p{
+  color: #d73240;
+  font-size: 14px;
+  padding: 0 30px 20px 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+.pro-description ul{
+  font-size: 14px;
+  color: #666666;
+  margin-top: 10px;
+}
+.pro-description ul li{
+  line-height: 30px;
+  overflow: hidden;
+}
+.pro-description ul li .pro-desc-title{
+  float: left;
+}
+.pro-description ul li .pro-desc-content{
+  float: left;
+}

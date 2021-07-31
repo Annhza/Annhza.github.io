@@ -1,0 +1,80 @@
+.concat-service{
+  text-align: center;
+  color: #01a1ff;
+}
+.concat-service p:first-child{
+  width: 143px;
+  font: 14px Tahoma;
+  font-weight: bold;
+  line-height: 24px;
+  border-bottom: 2px solid #01a1ff;
+  margin: 18px auto 0;
+}
+.concat-service p+p{
+  margin: 6px 0 20px;
+}
+.map-concat{
+  padding: 40px 20px 0;
+  overflow: hidden;
+}
+#map{
+  margin-bottom: 30px;
+}
+.map-concat form{
+  float: left;
+  width: 550px;
+  font: 16px 宋体;
+  color: #666666;
+}
+.map-concat form label{
+  display: inline-block;
+  width: 57px;
+  text-align: right;
+  line-height: 36px;
+}
+.map-concat form input{
+  width: 259px;
+  height: 25px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.map-concat form label.concat{
+  vertical-align: top;
+}
+.map-concat form textarea{
+  width: 423px;
+  height: 94px;
+  display: inline-block;
+  margin: 5px 0 10px -8px;
+  font-size: 16px;
+  padding: 10px;
+  resize: none;
+}
+.map-concat form input[type=submit]{
+  width: 97px;
+  height: 30px;
+  margin: 0 20px 0 56px;
+  background-color: #01a1ff;
+  color: #ffffff;
+  border: 0;
+}
+.map-concat form input[type=reset]{
+  width: 97px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  color: #999999;
+}
+.concat-info{
+  float: right;
+  width: 373px;
+}
+.concat-info h2{
+  font-size: 20px;
+  color: #333333;
+  font-weight: 600;
+}
+.concat-info p{
+  margin-top: 18px;
+  font-size: 14px;
+  color: #666666;
+}

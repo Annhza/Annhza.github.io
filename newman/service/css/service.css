@@ -1,0 +1,45 @@
+.services-list{
+  margin: 30px 27px 40px 20px;
+  font-size: 14px;
+}
+.services-list li{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  line-height: 30px;
+}
+.services-list li:before{
+  content: '.';
+  font-weight: bold;
+  padding-right: 3px;
+  line-height: 23px;
+  color: #666666;
+}
+.services-list li a{
+  color: #666666;
+}
+.services-list span{
+  display: inline-block;
+}
+.services-list .service-item{
+  position: relative;
+  left: 0;
+  padding-right: 5px;
+  background-color: #ffffff;
+  z-index: 10;
+}
+.services-list .line{
+  border-top: 1px dashed #666666;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  flex: 1;
+}
+.services-list .service-date{
+  position: absolute;
+  right: 0;
+  padding-left: 5px;
+  z-index: 10;
+  text-align: right;
+  background-color: #ffffff;
+}

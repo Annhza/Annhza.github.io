@@ -1,0 +1,32 @@
+.product-imgs{
+  padding: 40px 20px 27px;
+  display: flex;
+  flex-wrap: wrap;/*自动换行*/
+  justify-content: space-around;
+}
+.product-imgs li{
+  flex: 0 0 280px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.product-imgs li a{
+  font-size: 14px;
+  color: #ffffff;
+}
+.product-imgs li .pro-title{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.product-imgs li:hover{
+  box-shadow: 2px 2px 3px #01a1ff,  -2px -2px 3px #01a1ff;
+}
+.product-imgs li:hover .pro-title{
+  background-color: #01a1ff;
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+.questions{
+  padding: 0 47px 0 20px;
+  font-size: 14px;
+}
+.questions h2{
+  padding: 47px 0 53px;
+  text-align: center;
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+}
+.questions strong{
+  color: #333333;
+  font-weight: bold;
+  text-indent: 2em;
+  display: block;
+}
+.questions ol li{
+  color: #666666;
+  line-height: 1.5em;
+  margin-top: 12px;
+  text-indent: 2em;
+}
